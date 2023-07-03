@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+    <section class="signup-section">
+        <div class="container">
+            
+            <div class="wraper-signup">
+                <form method="post">
+                    {% csrf_token %}
+
+                    {% if messages %}
+                    {% for message in messages %}
+                      {% if message.tags == "error" %} 
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Hey!</strong> &nbsp; {{message}}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                      {% else %}
+                        <div class="alert alert-success" role="alert">
+                          {{message}}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                    
+                    <h2 class=" mt-5">Signup</h2>
+                    <div class="input-box">
+                        <input type="text" name="username" required>
+                        <label>UserName</lable>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" name="email" required>
+                        <label>Email</lable>
+                    </div>
+
+    
+                    <div class="input-box">
+                        <input type="password" name="password1" required>
+                        <label>Password</lable>
+                    </div>
+
+                    <input type="submit" value="signup" class="button">
+    
+    
+                </form>
+            </div>
+            
+        </div>
+    </section>
+    
+    {% endblock %}
+    

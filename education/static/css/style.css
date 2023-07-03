@@ -1,0 +1,1507 @@
+/* @import url('https://fonts.google@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,800&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&family=Roboto+Flex:wght@200;300;600;700&display=swap');apis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,800&family=Roboto+Flex:wght@200;300;600;700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color:rgb(240, 221, 221);
+}
+
+
+
+/* home section start */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../images/home-banner.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.sub-content{
+    font-size: 20px;
+    color: #002347;
+    font-weight: 600;
+}
+
+.main-content{
+    font-size: 50px;
+    color: #002347;
+    font-weight: 600;
+}
+
+.home-btn .primary-btn2{
+    display: inline-block;
+    background: #fdc632;
+    padding: 0px 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn2:hover{
+    background: #002347;
+    color: #fdc632;
+}
+
+.home-btn .primary-btn1{
+    display: inline-block;
+    background: #002347;
+    padding: 0px 48px;
+    color: #fdc632;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn1:hover{
+    color: #002347;
+    background: #ffff;
+}
+
+/* home section end */
+
+
+
+
+/* features start */
+
+.features{
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.main-title h2{
+    color: #002347;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Coiny', cursive;
+}
+
+.main-title p{
+    font-size: 16px;
+    line-height: 50px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: #7b838a;
+}
+
+
+
+
+.card1{
+    position: relative;
+    background: #f9f9ff;
+    padding: 40px 36px;
+    margin-bottom: 30px; 
+    transition: all 0.3s ease 0s;
+}
+
+.card1 i{
+    font-size: 25px;
+    color: #002347;
+    padding-bottom: 30px;
+    
+}
+.card1 h4{
+    text-align: left;
+    font-weight: 600;
+    color: #002347;
+}
+
+.card1 p{
+    text-align: left;
+    font-size: 14px;
+    color: #7b838a;
+}
+
+
+.card1:hover{
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1);
+}
+
+/* features end */
+
+
+
+
+
+/* course start */
+
+.course{
+    background-color: #002347;
+    padding-bottom: 100px;
+}
+ .main-title2{
+    padding: 40px 0px;
+ }
+
+
+
+.main-title2 h2{
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Coiny', cursive;
+}
+
+.main-title2 p{
+    font-size: 16px;
+    line-height: 50px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: #7b838a;
+}
+
+
+.course-card{
+    color: #002347;
+    background-color:#f9f9ff;
+    width: 330px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+.course-card-body{
+    padding: 30px 26px;
+    transition: all 0.3s ease 0s;
+}
+
+.course-card .course-card-title{
+    color: #fdc632;
+}
+
+.course-card-body .course-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #002347;
+    font-size: 13px;   
+    padding: 5px 21px;
+}
+
+.course-card img{
+    transition: all 0.3s ease 0s;
+}
+
+.course-card img:hover{
+    transform: scale(1.2);   
+}
+
+
+.course-card:hover{
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1);
+}
+
+
+.course-card .cost{
+    width: 65px;
+    height: 65px;
+    background-color: #fdc632;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    right: 15px;
+    text-align: center;
+    line-height: 65px;
+    font-weight: 600;
+}
+/* course end */
+
+
+
+
+
+
+
+
+/* Registration area start */
+
+/* left section start */
+
+.registration-area{
+   
+    background-color: #002347;
+    padding: 130px 0;
+}
+
+
+.clock-section{
+    color: white;
+}
+
+.clock-section h1{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.clock-section p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+.innerclock{
+    background: #334f6c;
+    padding: 13px 33px;
+    margin-right: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin-top: 65px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.innerclock h1{
+    font-size: 36px;
+    display: inline-block;
+}
+
+.innerclock span{
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.innerclock:hover{
+    transform: scale(.9);
+}
+/* left section end */
+
+
+
+/* right section start */
+
+
+.register-form{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.register-form h3{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+   
+}
+
+.register-form p{
+    color: #7b838a;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+
+.register-form input{
+    border: none;
+    border-bottom: 1px solid #b9bfc5;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+}
+
+.register-form input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: #b9bfc5;
+}
+
+.register-form .form-btn{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fdc632;
+    color: #002347;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.register-form .form-btn:hover{
+    color: #fdc632;
+    background-color: #002347;
+}
+
+.register-form  form button  {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 45px;
+    background-color: #fdc632;
+    color: #002347;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    border: none;
+} 
+
+.register-form form button a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+} 
+
+
+.register-form  form button:hover {
+    background-color: #002347;
+} 
+
+/* right section end */
+
+/* Registration area end */
+
+
+
+
+
+
+/* trainers section start*/
+
+.trainers{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.trainers .trainer-title{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.trainer-title h1{
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: bold; 
+    color: #002347;
+}
+
+.trainer-title p{
+    font-size: 16px;
+    font-style: italic;
+    color: #7b838a;
+}
+
+.trainer-card{
+    width: 255px;
+}
+
+.trainer-card img{
+    width: 100%;
+    height: auto;
+}
+
+.trainer-card .content{
+    padding: 20px 25px;
+    box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.13);
+    transition: all 0.3s ease 0s;
+    background: #ffffff;
+    text-align: center;
+}
+
+
+.trainer-card .content h4{
+    color: #002347;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.trainer-card .content p{
+    color:#7b838a;
+    font-size: 15px;
+}
+
+/* trainers section end*/
+
+
+
+
+
+/* event section start */
+
+.event{
+    background-color: #002347;
+    padding: 130px 0px 100px;
+}
+
+
+.event .event-title{
+    text-align: center;
+}
+
+.event .event-title h1{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.event .event-title p{
+    color:#7b838a;
+    font-size: 15px;
+    
+}
+
+
+.event-card{
+    overflow: hidden;
+}
+
+.event-card img{
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.event-card .event-details{
+    position: relative;
+    background: rgba(0, 35, 71, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 275px;
+    padding: 30px 30px;
+    color: #ffffff;
+}
+
+
+
+.event-card .event-details .date{
+    color: #ffffff;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    height: 50px;
+}
+
+.event-card .event-details .date span{
+    color:#fdc632;
+    font-size: 16px;
+}
+
+.event-card .event-details .event-location{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.event-card .event-content .bottom-p{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.event-card .event-details .event-btn{
+    display: inline-block;
+    background: #fdc632;
+    padding: 0px 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+
+
+.event-card .event-details .event-btn:hover{
+    background-color: #002347;
+    color: #fdc632;  
+}
+
+
+.event-card:hover img{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+/* event section end */
+
+
+
+
+
+
+/* client section start */
+
+.client{
+    padding: 130px 0px 100px;
+}
+
+.client .client-title{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.client .client-title h1{
+    font-family: 'Coiny', cursive;
+    color: #002347;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.client .client-title p{
+    font-style: italic;
+    color: #7b838a;
+}
+
+.client-card{
+    width: 535px;
+    box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.13);
+    padding: 50px 55px;
+    transition: all 0.3s ease-in-out;
+}
+
+.client-card .client-content h4{
+    color: #002347;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.client-card .client-content p{
+    color: #7b838a;
+
+}
+
+.client-card:hover{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    color: #fdc632;
+}
+
+
+.client-card:hover h4{
+    color: #fdc632;
+}
+
+
+.client-card p:hover{
+    color:#002347;
+}
+
+
+
+
+/* client section end */
+
+
+/* footer section start */
+
+.footer-area{
+    background-color: #002347;
+    padding: 130px 0px 100px;
+    
+}
+
+.footer-area h4{
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-area p{
+    color:#7b838a;
+}
+.footer-area ul{
+    list-style-type: none;
+}
+.footer-area ul li{
+    margin-bottom: 15px;
+}
+
+.footer-area ul a{
+    text-decoration: none;
+    color: #7b838a;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.footer-area ul a:hover{
+    color: #ffff;
+}
+
+
+.footer-area .input-area{
+    height: 40px;
+    border: none;
+    width: 80%;
+    font-weight: 300;
+    background: #334f6c;
+    color: #ffffff;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+.footer-area .footer-btn{
+    background: #fdc632;
+    background-size: 200% auto;
+    color: #002347;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 10px 15px;
+    margin-left: -60px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+/* footer section end */
+
+
+
+/* ====contact.html start==== */
+
+.navbar2{
+    background-color:rgb(240, 221, 221);
+    
+}
+
+.custom-toggler .navbar-toggler-icon  {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 198, 50, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+
+
+
+
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background: url(../images/banner.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.banner_area1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 392px;
+    z-index: 1;
+}
+
+
+.overlay{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 35, 71, 0.8);
+}
+
+.banner .banner-text h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+
+/* banner section end */
+
+
+
+
+
+
+/* ====contact form start==== */
+
+.contact-wraper{
+    padding: 100px 50px;
+}
+
+.contact-wraper h3{
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.contact-wraper p{
+    color:#999999;
+}
+
+.contact-wraper span{
+    color: black;
+}
+
+.dbox {
+    padding: 10px;
+
+}
+
+.dbox .text a{
+    text-decoration: none;
+    color: black;
+}
+
+/* contact form end */
+
+/* ====contact.html end==== */
+
+
+
+
+/* ====About page start=== */
+
+.about-banner{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background: url(../images/banner.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-banner h2{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+
+
+
+.features-about{
+    background-color: #002347;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.main-title-about h2 {
+    color: #dee2e6;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Coiny', cursive;
+}
+
+.main-title-about p{
+    padding-top: 10px;
+    color: #b9bfc5;
+}
+
+.about-area{
+    padding: 130px 0;
+}
+
+.about-text-wraper{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.about-text h4 {
+    color: #002347;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 600;
+}
+
+.about-text p{
+    color: #7b838a;
+}
+
+.about-text .primary-btn-about {
+    text-decoration: none;
+    display: inline-block;
+    background: #fdc632;
+    padding: 0px 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.about-text .primary-btn-about:hover{
+    color: #fdc632;
+    background-color: #002347;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-img {
+    position: relative;
+    z-index: 10;
+}
+.about-text{
+    position: relative;
+    z-index: 1;
+    border: 10px solid #f9f9ff;
+    padding: 70px 20px;
+}
+/* ====About page end=== */
+
+
+/* ====Course page start==== */
+
+    .course2{
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+/* ====Course page end==== */
+
+
+
+/* login page start */
+.login-section{
+    /* background-image: linear-gradient(to right top,#002347, #725ade); */
+    background-color: #0153ab;
+    width: 100%;
+}
+
+.login-section .container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+.wraper-login {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 18px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraper-login h2 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+
+.wraper-login .input-box {
+  position: relative;
+  width: 302px;
+  margin: 30px 0px;
+  border-bottom: 2px solid white;
+}
+
+.wraper-login .input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: white;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.wraper-login .input-box input:focus ~ label,
+.wraper-login .input-box input:valid ~ label {
+  top: 6px;
+  color: #fa709a;
+  font-size: 0.8em;
+}
+
+.wraper-login .input-box input {
+  width: 90%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1em;
+  padding: 0px 10px;
+}
+
+.wraper-login .remember-forgot {
+  margin: 15px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.wraper-login .remember-forgot a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.wraper-login .remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wraper-login .remember-forgot label {
+  color: white;
+  font-size: 13px;
+}
+
+.wraper-login .remember-forgot label input {
+  accent-color: #fa709a;
+  margin-left: 3px;
+}
+
+.wraper-login .button {
+  margin: 20px 0;
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  background: #fa709a;
+  border-radius: 20px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.wraper-login .button:hover {
+  transform: scale(0.9);
+  background: #f55182;
+}
+
+.wraper-login .register-link {
+  color: #ffff;
+  font-size: 13px;
+  text-align: center;
+}
+
+.wraper-login .register-link a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.wraper-login .register-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* login page end */
+
+
+
+/* signup page start */
+.signup-section{
+    background-color: #0153ab;
+    width: 100%;
+}
+
+.signup-section .container{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.wraper-signup {
+    position: relative;
+    width: 400px;
+    height:auto;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 18px 32px rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wraper-signup h2 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: "Lobster", cursive;
+  }
+  
+  .wraper-signup .input-box {
+    position: relative;
+    width: 302px;
+    margin: 30px 0px;
+    border-bottom: 2px solid white;
+  }
+  
+  .wraper-signup .input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .wraper-signup .input-box input:focus ~ label,
+  .wraper-signup .input-box input:valid ~ label {
+    top: 6px;
+    color: #fa709a;
+    font-size: 0.8em;
+  }
+  
+  .wraper-signup .input-box input {
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1em;
+    padding: 0px 10px;
+  }
+  
+  .wraper-signup .remember-forgot {
+    margin: 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wraper-signup .button {
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    background: #fa709a;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .wraper-signup .button:hover {
+    transform: scale(0.9);
+    background: #f55182;
+  }
+
+/* signup page end */
+
+
+
+
+
+/* profile section start */
+
+.profile{
+    width: 100%;
+    height: auto;
+    margin: 200px 0;
+    
+}
+
+.profile .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic{
+    text-align: center;
+}
+
+.profile-pic img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+
+
+.input-box input{
+    border:none;
+    outline: none;
+}
+
+.persional-details {
+    position: relative;
+    top: 50px;
+    left: 70px;
+    transform: translate(-20px,-50px);
+}
+
+
+/* profile section end */
+
+
+/* popup page start */
+    main{
+        width: 100%;
+        height: 100vh;
+        padding: 50px;
+        background: url('../images/undraw_update_re_swkp.svg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+    }
+    main .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .update-btn{
+        display: grid;
+        place-items: center;
+    }
+
+    .update-btn .up-btn{
+        background-color: #fa709a;
+        color: white;
+        outline: none;
+        border: none;
+        margin-top: 10px;
+        padding: 5px 20px;
+        transition: all 0.5s ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     }
+
+    .update-btn .up-btn:hover{
+        animation-name: shake;
+        -webkit-animation-name: shake;
+        -moz-animation-name: shake;
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+    }
+    
+        @keyframes shake {
+            0%  {transform: translate(1px, 1px) rotate(0deg);}
+            10% {transform: translate(-1px, -2px) rotate(-1deg);}
+            20% {transform: translate(-3px, 0px) rotate(1deg);}
+            30% {transform: translate(3px, 2px) rotate(0deg);}
+            40% {transform: translate(1px, -1px) rotate(1deg);}
+            50% {transform: translate(-1px, 2px) rotate(-1deg);}
+            60% {transform: translate(-3px, 1px) rotate(0deg);}
+            70% {transform: translate(3px, 1px) rotate(-1deg);}
+            80% {transform: translate(-1px, -1px) rotate(1deg);}
+            90% {transform: translate(1px, 2px) rotate(0deg);}
+            100% {transform: translate(1px, -2px) rotate(-1deg);}
+        }
+
+        #id_phoneno{
+            color: #6B63FE;
+            outline: none;
+            
+        }
+        main .container form label{
+            color:#B24F6D ;
+            font-weight: 500;
+        }
+                  
+
+    
+                  
+/* popup page end */
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+
+@media (max-width: 769px) { 
+    .main-content {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .card1 {
+        background: #f9f9ff;
+        text-align: start;
+        transition: all 0.3s ease 0s;
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+    .main-title2{
+        text-align: center;
+    }
+
+    .course-card {
+        margin-bottom: 30px;
+    }
+
+    .register-form {
+        margin-top: 50px;
+    }
+
+    .trainer-card {
+        margin-bottom: 30px;
+    }
+
+
+    .event-card .event-details {
+        
+        width: 270px;
+    }
+        
+    .client-card {
+        width: 450px;
+        
+    }
+
+    .col {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        padding-top: 200px;
+        background-position: bottom;
+    }
+                  
+
+
+}
+
+
+
+
+
+@media (max-width: 475px) { 
+    
+    .sub-content {
+        font-size: 16px;
+        text-align: center;
+        
+    }
+
+    .main-content {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .home-btn .primary-btn1 {
+        padding: 0px 25px;
+        
+    }
+
+    .home-btn .primary-btn2 {
+        padding: 0px 25px;
+        
+    }
+
+    .features {
+        padding-top: 150px;
+    }
+
+    .main-title h2 {
+        font-size: 32px;
+    }
+
+
+    .main-title p {
+        line-height: 25px;
+    }
+
+
+    .main-title2 h2 {
+        font-size: 32px;
+    }
+
+    
+    .main-title2 p {
+        line-height: 25px;
+        margin-bottom: 26px;
+    }
+
+
+    .clock-section h1 {
+        font-size: 32px;
+        text-align: left;
+    }
+
+
+    .trainer-title h1 {
+        font-size: 32px;
+    }
+
+    .col-sm-12,.col-lg-4 {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .event-thumb{
+        margin-bottom: 30px;
+    }
+
+    .event-card img {
+        width: 470px;
+    }
+
+    .event .event-title h1 {
+        font-size: 32px;
+    }
+
+    .client .client-title h1 {
+        font-size: 32px;
+    }
+
+    .client-card {
+        width: 300px;
+    }
+
+    .card1{
+        width: 360px;
+    }
+    .foot{
+        display: block;
+    }
+
+    .subscribe{
+        margin-bottom: 35px;
+    }
+
+    .footer-area h4{
+       
+        font-size: 18px;
+    }
+
+  
+    .wraper-signup .input-box {
+        width: 270px;
+        margin: 30px 25px;
+    }
+
+
+    .wraper-signup .button {
+        position: relative;
+        top: 50px;
+        left: 100px;
+        transform: translate(-40px,-50px);
+        width: 60%;
+        
+    }
+    main {
+        background-position: center;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font family */
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Coiny', cursive;
+font-family: 'Roboto Condensed', sans-serif; */

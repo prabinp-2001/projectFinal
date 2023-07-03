@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+    <section class="login-section">
+        <div class="container">
+            <div class="wraper-login">
+                <form method="post">
+                    {% csrf_token %}
+
+                    {% if messages %}
+                    {% for message in messages %}
+                      {% if message.tags == "error" %} 
+                        <!-- <div class="alert alert-danger" role="alert">
+                          {{message}}
+                        </div> -->
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Hey!</strong> &nbsp; {{message}}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                      {% else %}
+                        <div class="alert alert-success" role="alert">
+                          {{message}}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                    <h2>Login</h2>
+                    <div class="input-box">
+                        <input type="text" name="n" required>
+                        <label>Username</lable>
+                    </div>
+    
+                    <div class="input-box">
+                        <input type="password" name="p" required>
+                        <label>Password</lable>
+                    </div>
+    
+                    
+                    <input type="submit" value="login" class="button">
+
+    
+                    <div class="register-link">
+                        <p>don't have an account?
+                        <a href="{% url 'signup' %}">register</a>
+                        </p>
+                    </div>
+    
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-- <h1>Login now</h1>
+
+<form method="post">
+    {% csrf_token %}
+    username <input type="text" name="n"> <br>
+    password <input type="text" name="p"><br>
+    <input type="submit" value="login">
+</form> -->
+
+
+
+{% endblock %}
+    

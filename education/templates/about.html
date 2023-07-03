@@ -1,0 +1,270 @@
+{% extends 'contact.html' %}
+
+{% block body_block %}
+<nav class="navbar navbar2 navbar-expand-lg fixed-top  container ">
+    <a class="navbar-brand text-danger" href="#">EDUCATION</a>
+    <button class="navbar-toggler custom-toggler border-warning" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon  "></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item ">
+          <a class="nav-link text-dark" href="{% url 'base' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="{% url 'about' %}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="{% url 'course' %}">Course</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link text-dark" href="{% url 'contact' %}">Contact</a>
+        </li>
+        {% if user.is_authenticated %}
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="{% url 'form1' %}">register</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="{% url 'profile' %}">Profile</a>
+          </li>
+         
+        {% else %}
+        <li class="nav-but ml-lg-5  mr-2 mb-sm-2 my-1">
+          <a class="btn btn-outline-danger" href="{% url 'login1' %}">Login</a>
+        </li>
+        <li class="nav-but my-1">
+          <a class="btn btn-outline-danger" href="{% url 'signup' %}">signup</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner-About start -->
+
+  <section class="about-banner">
+    <div class="banner-area1 align-item-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="banner-text">
+              <h2>About Us</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- ====Banner-About end==== -->
+
+
+
+  <!-- About Area start -->
+
+    <section class="about-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                  <div class="about-img">
+                    <img src="../static/images/about.png.webp" alt="image" class="img-fluid" >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text-wraper">
+                      <div class="about-text">
+                        <h4>Welcome to our Institute</h4>
+                        <p>
+                          Subdue whales void god which living don't midst lesser
+                          yielding over lights whose. Cattle greater brought sixth fly
+                          den dry good tree isn't seed stars were.
+                        </p>
+                        <p>
+                          Subdue whales void god which living don't midst lesser yieldi
+                          over lights whose. Cattle greater brought sixth fly den dry
+                          good tree isn't seed stars were the boring.
+                        </p>
+                        <a class="primary-btn-about" href="#">Learn More </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- ====About Area end==== -->
+
+
+
+    <!-- features start -->
+
+    <section class="features-about">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="main-title-about">
+                <h2>Awesome Feature</h2>
+                <p>Replenish man have thing gathering lights yielding shall you</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="card card1">
+               <i class="fa-solid fa-graduation-cap"></i>
+                <div clas="card-text">
+                  <h4>Scholarship Facility</h4>
+                    <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card1">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div clas="card-text">
+                  <h4>Sell Online Course</h4>
+                  <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card1">
+               <i class="fa fa-book-atlas"></i>
+                <div clas="card-text">
+                  <h4>Global Certification</h4>
+                  <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+  <!-- ====features end==== -->
+
+
+  <!-- client section start -->
+
+  <section class="client">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <div class="client-title">
+            <h1>Client say about me</h1>
+            <p>Replenish man have thing gathering lights yielding shall you</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        
+        <div class="col mb-5">
+          <div class="client-card">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="client-img">
+                  <img src="../static/images/f1.jpg">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="client-content">
+                  <h4>Elite Martin</h4>
+                  <p>
+                    Him, made can't called over won't there on divide there
+                    male fish beast own his day third seed sixth seas unto.
+                    Saw from
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="client-card">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="client-img">
+                  <img src="../static/images/f2.jpg">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="client-content">
+                  <h4>Davil Saden</h4>
+                  <p>
+                    Him, made can't called over won't there on divide there
+                    male fish beast own his day third seed sixth seas unto.
+                    Saw from
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="client-card">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="client-img">
+                  <img src="../static/images/f2.jpg">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="client-content">
+                  <h4>Davil Saden</h4>
+                  <p>
+                    Him, made can't called over won't there on divide there
+                    male fish beast own his day third seed sixth seas unto.
+                    Saw from
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="client-card">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="client-img">
+                  <img src="../static/images/f1.jpg">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="client-content">
+                  <h4>Davil Saden</h4>
+                  <p>
+                    Him, made can't called over won't there on divide there
+                    male fish beast own his day third seed sixth seas unto.
+                    Saw from
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        
+      </div>
+
+
+
+
+
+      
+      
+    </div>
+  </section>
+
+ 
+
+<!-- ====client section end==== -->
+
+{% endblock %}
